@@ -84,6 +84,54 @@ nav ul li a:hover{
     border-radius: 15px;
     margin-top: 30px;
 }
+/* Main Styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-container{
+    padding: 20px 170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+}
+.team-img-content{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 20px;
+}
+.team-img-content img{
+   width: 200px;
+   border-radius: 10px;
+}
+.team-content{
+    width: 40%;
+    margin-left: 40px;
+}
+.team-content h3{
+    color: #727272;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.of-our{
+    color: #131313;
+    font-weight: 600;
+}
+.features{
+    color: #FF900E;
+    font-weight: 600;
+}
+.team-content p{
+    color: #727272;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -164,7 +212,7 @@ nav ul li a:hover{
 /*Responsiv styels */
 @media screen and (max-width:576px){
     header {
-        padding: 15px;
+        padding: 20px;
     }
     nav{
         flex-direction: column;
